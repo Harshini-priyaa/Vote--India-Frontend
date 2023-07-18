@@ -1,0 +1,99 @@
+.homepg {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+  font-family: 'Poppins',sans-serif;
+
+}
+
+
+.homepg {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("./Images/parliament-bg.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.getStarted h1{
+    font-size: 3rem;
+    color: #fff;
+    padding-top: 18%;
+    padding-left: 8%;     
+    text-align: left;
+}
+
+.getStarted p {
+    font-size: 1.5rem;
+    color: #fff;
+    padding-left: 8%;
+    text-align: left;
+}
+
+.btnstart {
+    text-align: left;
+    margin-right: 69%;
+    font-size: 2rem;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 15px;
+}
+
+.btnstart:hover {
+    background-color: #01959a;
+}
+
+.About h1 {
+    font-size: 3rem;
+    color: #fff;
+    padding-top: -20%;
+    padding-left: 8%;     
+    text-align: left;
+    position: absolute;
+    top: 140%;
+    left: 35%;
+}
+
+.About-pic {
+    width: 100%;
+    height: 100vh;
+    padding-top: 20%;
+    /* background-color:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7 )),url("./about2.jpg") */
+}
+
+.About p {
+    font-size: 1.1rem;
+    color: #000;
+    padding-left: 8%;
+    padding-top: 1%;
+    text-align: left;
+    margin-right: 5% ;
+}
+
+.Contact-icon {
+    padding-top: 10%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.Footer {
+    /* padding: 5% 30% 5% 40% ; */
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+.icons {
+    width: 3vw;
+}
+
+.contactUs {
+    width: 100%;
+    /* height: 40%; */
+}
