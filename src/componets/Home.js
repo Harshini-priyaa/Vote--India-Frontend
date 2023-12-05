@@ -7,25 +7,30 @@ import facebook from "./Images/fb.png";
 import youtube from "./Images/yt.png";
 import twitter from "./Images/twitter.png";
 import { Link } from "@mui/material";
+import { RequestAlreadySentError } from "web3";
+import ResultTime from "./ResultTime";
 
 function Home() {
     return(
         <div className="homepg">
             <Navbar/>
-            <div className="getStarted">
+            <div className="getStarted" id="home">
                 <h1><span>Welcome</span><br></br> Voters</h1>
                 <p>Voting is a responsibility of every<br></br>citizen in the nation</p>
                 <br></br><Link href="Login"><button className="btnstart">Get started</button>
                 </Link>
             </div>
-
-            <div className="About">
+            <div className="winning">
+            <ResultTime />
+            </div>
+            
+            <div className="About"id="about1">
                 <img className="About-pic" src={Aboutimg}/>
                 {/* <image path={Aboutimg} className="About-pic"></image> */}
-                <h1>About us</h1>
-                <p>Welcome to [Your Voting Website Name], your go-to destination for all things related to elections, civic engagement, and democratic participation. Our mission is to empower individuals, promote informed decision-making, and strengthen the fabric of democracy. With our user-friendly platform and comprehensive resources, we strive to create an inclusive space where every voice matters.<br></br><br></br>
+                <h1 >About us</h1>
+                <p >Welcome to Vote INDIA, your go-to destination for all things related to elections, civic engagement, and democratic participation. Our mission is to empower individuals, promote informed decision-making, and strengthen the fabric of democracy. With our user-friendly platform and comprehensive resources, we strive to create an inclusive space where every voice matters.<br></br><br></br>
 
-At [Your Voting Website Name], we believe that active participation in the electoral process is the cornerstone of a thriving democracy. We are passionate about providing citizens with the tools and knowledge they need to make informed choices, engage in meaningful discussions, and actively shape the future of their communities and nations.<br></br><br></br>
+At Vote INDIA, we believe that active participation in the electoral process is the cornerstone of a thriving democracy. We are passionate about providing citizens with the tools and knowledge they need to make informed choices, engage in meaningful discussions, and actively shape the future of their communities and nations.<br></br><br></br>
 
 <h2>Key Features:</h2><br></br>
 <h4>1.Empowering Voters:</h4>We understand that the electoral process can sometimes feel overwhelming. That's why we are committed to empowering voters with accessible and unbiased information. Our platform provides step-by-step guides, voter registration assistance, and comprehensive election resources, ensuring that you have the knowledge and tools necessary to exercise your right to vote confidently.<br></br><br></br>
@@ -38,11 +43,11 @@ At [Your Voting Website Name], we believe that active participation in the elect
 
 <h4>5.Get Involved:</h4> We go beyond the act of voting by encouraging users to take an active role in their communities. Our platform offers information on volunteering opportunities, local advocacy groups, and community events, allowing you to make a tangible impact on the issues that matter to you.<br></br><br></br>
 
-At [Your Voting Website Name], we prioritize transparency, non-partisanship, and inclusivity. Our goal is to foster a respectful and constructive environment where individuals from all walks of life can engage in meaningful dialogue, exchange ideas, and contribute to the democratic process.<br></br><br></br>
+At Vote INDIA, we prioritize transparency, non-partisanship, and inclusivity. Our goal is to foster a respectful and constructive environment where individuals from all walks of life can engage in meaningful dialogue, exchange ideas, and contribute to the democratic process.<br></br><br></br>
 
 Join us on this journey as we work towards building a stronger democracy, one vote at a time. Together, let's make our voices heard, shape our future, and ensure that democracy remains vibrant and robust for generations to come.</p>
             </div>
-            <div className="Footer">
+            <div className="Footer" id="contact">
                 <div>
                     
                     <h2>Contact Us</h2>

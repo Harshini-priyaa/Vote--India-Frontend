@@ -1,10 +1,14 @@
 
 
 .logo{
-    width: 100px;
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    mix-blend-mode:multiply;
 }
 .logo-box {
     display: flex;
+    align-items: center;
 }
 
 .NavbarItems{
@@ -28,6 +32,7 @@
     color: #222;
     font-size: 2rem;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .nav-menu {
@@ -36,6 +41,7 @@
     grid-gap:40px;
     list-style: none;
     align-items: center;
+    padding-top: 1rem;
 }
 
 .nav-links {
@@ -43,9 +49,9 @@
     color: #222;
     font-size: 1.2rem;
     font-weight: 600;
-    padding: 0.7rem 1rem;
+    padding: 0.7rem;
     white-space: nowrap;
-
+    
 }
 
 .nav-menu li {

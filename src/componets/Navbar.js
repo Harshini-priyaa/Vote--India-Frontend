@@ -1,7 +1,7 @@
 import { Component } from "react";
-import Logo from "./Images/logo1.png"
+import Logoimg from "./Images/Votelog.png"
 import "./Navbar.css";
-        
+import { Link } from "@mui/material";
 
 class Navbar extends Component{
 
@@ -15,7 +15,7 @@ class Navbar extends Component{
             <div className="body">
             <nav className="NavbarItems">
                 <div className="logo-box">
-                <img className="logo" src={Logo}/>
+                <img className="logo" src={Logoimg} />
                 <h1 className="navbar-logo"> Vote INDIA</h1>
                 </div>
                 <div className="menu-icons" onClick={this.handleClick}>
@@ -24,17 +24,17 @@ class Navbar extends Component{
 
                 <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
                     <li>
-                        <a href="#" className="nav-links">
+                        <a href="#home" className="nav-links">
                             <i class="fa-solid fa-house"></i>Home
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="nav-links">
+                        <a href="#about1" className="nav-links">
                             <i class="fa-solid fa-user"></i>About
                         </a>
                     </li>
                     <li>
-                        <a href="#" className="nav-links">
+                        <a href="#contact" className="nav-links">
                             <i class="fa-solid fa-phone"></i>Contacts
                         </a>
                     </li>
@@ -44,7 +44,7 @@ class Navbar extends Component{
                         </a>
                     </li> */}
 
-                    <button>Sign up</button>
+                    <Link href="Signup"><button >Sign up</button></Link>
                 </ul>
                 
             </nav>

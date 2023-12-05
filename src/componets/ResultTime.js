@@ -1,9 +1,11 @@
-import { Button } from 'primereact/button';
-import React, { useState, useEffect,useRef } from 'react';
-import Result from './Result';
 
-const CountdownTimer = () => {
-  const [timer, setTimer] = useState(120);
+import React, { useState, useEffect,useRef } from 'react';
+import Winner from './Winner';
+import './ResultTime.css'
+
+
+const ResultTime = () => {
+  const [timer, setTimer] = useState(600);
   const [timerEnded, setTimerEnded] = useState(false);
 
   useEffect(() => {
@@ -25,7 +27,14 @@ const CountdownTimer = () => {
     .padStart(2, '0')}:${(timer % 60).toString().padStart(2, '0')}`;
 
   if (timerEnded) {
-    return <Result />;
+    return(
+      <>
+      <Winner/>
+      <h1>Results Published..</h1>
+      </>
+      
+    ) 
+    
     
   }
 
@@ -33,9 +42,9 @@ const CountdownTimer = () => {
     <div>
       {/* <p>Voting Ends in : {formattedTime}</p> */}
       {/* <Toast ref={toast} /> */}
-      <span className="text-x">Voting Ends in : {formattedTime}</span>
+      <span className="text-xl">Voting Results will be published in : {formattedTime}</span>
     </div>
   );
 };
 
-export default CountdownTimer;
+export default ResultTime;

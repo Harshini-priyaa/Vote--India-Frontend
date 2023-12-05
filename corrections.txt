@@ -1,0 +1,21 @@
+Backend => vikram
+screenfreeze => Harshini
+disable button, timing (3min) => vishnu
+result => vikram
+logo ,ppt => shyam
+voting for disable,disability persons => shyam
+admin => Harshini
+one system vote(IP) => 
+metamask (other wallets)
+user convineent (smartphone convienence)
+key qr encryption
+
+
+
+today's task: 
+
+Harshini - admin page, screenfreeze, key qr encryption
+Shyam - copyright in home page,ppt,logo,voting for disable,disability persons
+Vishnu- disable button, timing (3min),one system vote
+Poori- userpage alteration,connectivity, other wallets than metamask 
+Vikram-Backend (admin logic,result logic)

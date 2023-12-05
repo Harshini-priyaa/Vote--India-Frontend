@@ -14,6 +14,11 @@
     background-size: cover;
   
 }
+.backhome{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
 
 .custom-input-label{
     margin-right: 11rem;
@@ -21,10 +26,10 @@
 
 .box-login{
     
-    width: 30%;
+    width: 40%; 
     position: relative;
     width: 430px;
-    height: 480px;
+    height: 550px;
     color:white;
     background: transparent;
     border: 2px solid rgba(255,255,255,.5);
@@ -39,10 +44,10 @@
 .box-signup{
    
     position: relative;
-    margin-top: 5%;
-    width: 500px;
-    height: 680px;
-    padding-top: 2%;
+    margin-top: -6%;
+    width: 550px;
+    height: 750px;
+    padding-top: 10px;
     color:white;
     background: transparent;
     border: 2px solid rgba(255,255,255,.5);
